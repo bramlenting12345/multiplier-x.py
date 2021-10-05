@@ -5,9 +5,11 @@
 # De function laat door middel van een loop de tafel (1 t/m 10) van het gekozen getal op het scherm zien.
 
  
-def tafel(cijver,keer):
-    return(cijver*keer)
+def tafel(a,b):
+    return(a*b)
 kiestafel=int(input("welke tafel wilt u"))
 
-for x in range (1,11):
-     print(tafel(x,kiestafel))
+for x in range(1,11):
+     antwoord = tafel(x,kiestafel)
+     print (antwoord)
+     
