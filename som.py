@@ -6,8 +6,6 @@ som = addition(3,6)
 print(som)
 
 
-
-
 def subtraction(number1,number2):
     result = number1-number2
     return result
